@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>プライバシーポリシー | 仕組みの箱庭 投稿アシスタント</title>
+<link rel="stylesheet" href="style.css">
+<main>
+  <p class="eyebrow"><a href="index.html">仕組みの箱庭 投稿アシスタント</a></p>
+  <h1>プライバシーポリシー</h1>
+  <p class="lead">本アプリは、運営者が自分のYouTubeチャンネルへ投稿するための個人用ツールです。</p>
+  <section>
+    <h2>取り扱う情報と利用目的</h2>
+    <p>認可したチャンネルのID・名称、投稿対象の動画・サムネイル、タイトル・説明・タグ・公開設定、投稿済み動画のID・処理状態、およびGoogle OAuthの認証情報を扱います。これらは投稿先の照合、アップロード、投稿情報の設定、公開・予約公開、エラーからの再開、重複投稿の防止に使用します。</p>
+    <p>認可されていないチャンネルや、指定されていないローカルファイルを収集する機能はありません。</p>
+  </section>
+  <section>
+    <h2>保存と送信</h2>
+    <p>更新用トークン等のOAuth認証情報は、運営者のMacのキーチェーンに保存します。OAuthクライアント設定、チャンネル設定、アップロード再開情報は、同じMacのアクセス権を制限した領域へ保存します。投稿パッケージや投稿記録はローカルの制作環境で管理します。</p>
+    <p>認証および投稿に必要な情報は、Google OAuthとYouTube APIの公式サービスへ送信します。公開設定に応じて動画や投稿情報がYouTube上で表示されます。動画の公開設定と、この説明サイトの公開は別です。</p>
+    <p>AIアシスタントを使って本アプリを操作する場合、利用者が依頼した作業に必要なチャンネル名・動画ID・処理結果などが、そのAIサービスの会話や作業記録に含まれることがあります。認証情報やアップロード再開URLを会話へ出力しない設計です。本投稿プログラムに、GoogleユーザーデータをAIモデルの学習用として送信する機能はありません。</p>
+  </section>
+  <section>
+    <h2>保存期間と削除・アクセス解除</h2>
+    <p>ローカルの認証情報・投稿記録は、運営者が削除するまで保存します。Google側でアクセスを解除しても、ローカルの保存情報が自動で消去されるわけではありません。投稿記録は重複投稿を防ぐため、エピソードの制作ファイル整理後も保持します。</p>
+    <p>Googleアカウントの<a href="https://myaccount.google.com/connections">サードパーティとの接続</a>から、本アプリのアクセスを解除できます。ローカルの認証情報はmacOSキーチェーンから、設定・記録は <code>Library/Application Support/ShikumiYouTube</code> から削除できます。制作環境内の投稿パッケージも別途削除できます。</p>
+    <p>アクセスの解除やローカルファイルの削除によって、YouTubeへ投稿済みの動画が削除されることはありません。投稿済みコンテンツはYouTube Studioで管理してください。</p>
+  </section>
+  <section>
+    <h2>第三者提供とGoogleのポリシー</h2>
+    <p>本アプリはGoogleユーザーデータを販売したり、広告配信に使用したりしません。Google APIから取得する情報の利用および他のアプリへの転送は、Limited Use要件を含む<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>に従います。</p>
+    <p>Google・YouTube側の情報の取り扱いについては、<a href="https://policies.google.com/privacy">Googleのプライバシーポリシー</a>を参照してください。</p>
+  </section>
+  <section>
+    <h2>この説明サイトと問い合わせ</h2>
+    <p>本サイトはGitHub Pagesで配信する静的な説明ページです。独自のアクセス解析、広告、入力フォームを設置していません。配信事業者によるアクセス情報の取り扱いは、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーポリシー</a>に従います。</p>
+    <p>運営者：<a href="https://github.com/woods0918">woods0918（GitHub）</a>。問い合わせは<a href="https://github.com/woods0918/shikumi-youtube-uploader/issues">本アプリのGitHub Issues</a>へお願いします。認証情報や非公開動画を公開の問い合わせ欄へ掲載しないでください。</p>
+  </section>
+  <nav><a href="index.html">アプリの説明へ戻る</a></nav>
+  <footer>適用・更新日：2026年10月11日</footer>
+</main>
+</html>
